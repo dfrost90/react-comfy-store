@@ -71,6 +71,7 @@ const Wrapper = styled.section`
     text-transform: capitalize;
   }
   .submit-btn {
+    font-family: 'Khand', sans-serif;
     background: var(--clr-primary-5);
     text-transform: capitalize;
     letter-spacing: var(--spacing);

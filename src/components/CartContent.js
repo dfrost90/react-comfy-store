@@ -40,6 +40,7 @@ const Wrapper = styled.section`
   .link-btn {
     background: transparent;
     border-color: transparent;
+    font-family: 'Khand', sans-serif;
     text-transform: capitalize;
     padding: 0.25rem 0.5rem;
     background: var(--clr-primary-5);
@@ -50,6 +51,7 @@ const Wrapper = styled.section`
     cursor: pointer;
   }
   .clear-btn {
+    font-family: 'Khand', sans-serif;
     background: var(--clr-black);
   }
 `;

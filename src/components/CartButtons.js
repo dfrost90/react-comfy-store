@@ -51,6 +51,7 @@ const Wrapper = styled.div`
 
   .cart-btn {
     color: var(--clr-grey-1);
+    font-family: 'Khand', sans-serif;
     font-size: 1.5rem;
     letter-spacing: var(--spacing);
     color: var(--clr-grey-1);
@@ -84,6 +85,7 @@ const Wrapper = styled.div`
   }
   .auth-btn {
     display: flex;
+    font-family: 'Khand', sans-serif;
     align-items: center;
     background: transparent;
     border-color: transparent;

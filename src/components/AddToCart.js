@@ -47,7 +47,7 @@ const AddToCart = ({ product }) => {
         <AmountButtons amount={amount} inc={inc} dec={dec} />
         <Link
           to="/cart"
-          className="btn"
+          className="btn add-to-cart"
           onClick={() => addToCart(id, mainColor, amount, product)}
         >
           add to cart
@@ -74,6 +74,7 @@ const Wrapper = styled.section`
   }
   .color-btn {
     display: inline-block;
+    font-family: 'Khand', sans-serif;
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
@@ -83,6 +84,7 @@ const Wrapper = styled.section`
     cursor: pointer;
     opacity: 0.5;
     display: flex;
+
     align-items: center;
     justify-content: center;
     svg {
@@ -100,6 +102,10 @@ const Wrapper = styled.section`
   .btn {
     margin-top: 1rem;
     width: 140px;
+  }
+
+  .add-to-cart {
+    text-align: center;
   }
 `;
 export default AddToCart;

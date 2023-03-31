@@ -241,6 +241,7 @@ const Wrapper = styled.section`
   .clear-btn {
     background: var(--clr-red-dark);
     color: var(--clr-white);
+    font-family: 'Khand', sans-serif;
     padding: 0.25rem 0.5rem;
     border-radius: var(--radius);
   }

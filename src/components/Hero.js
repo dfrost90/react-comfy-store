@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import heroBcg from '../assets/hero-bcg.jpeg';
-import heroBcg2 from '../assets/hero-bcg-2.jpeg';
+import heroBcg from '../assets/hero-image.svg';
+import heroBcg2 from '../assets/hero-bcg-2.jpg';
+import heroImage from '../assets/hero-image.svg';
 
 const Hero = () => {
   return (
@@ -23,7 +24,6 @@ const Hero = () => {
       </article>
       <article className="img-container">
         <img src={heroBcg} className="main-img" alt="nice table" />
-        <img src={heroBcg2} className="accent-img" alt="person working" />
       </article>
     </Wrapper>
   );
@@ -47,7 +47,7 @@ const Wrapper = styled.section`
   @media (min-width: 992px) {
     height: calc(100vh - 5rem);
     grid-template-columns: 1fr 1fr;
-    gap: 8rem;
+    gap: 2rem;
     h1 {
       margin-bottom: 2rem;
     }
@@ -68,7 +68,7 @@ const Wrapper = styled.section`
       position: relative;
       border-radius: var(--radius);
       display: block;
-      object-fit: cover;
+      // object-fit: cover;
     }
     .accent-img {
       position: absolute;
@@ -79,7 +79,7 @@ const Wrapper = styled.section`
       border-radius: var(--radius);
     }
     .img-container::before {
-      content: '';
+      content: none;
       position: absolute;
       width: 10%;
       height: 80%;
